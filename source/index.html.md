@@ -47,31 +47,31 @@ curl "https://user:pass@storydoc-api-stg.mybluemix.net/users"
 [
   {
     "id": 1,
-    "email": 'vincent@storydoc.ai',
-    "password": '123456',
-    "name": 'Vincent',
+    "email": "vincent@storydoc.ai",
+    "password": "",
+    "name": "Vincent",
     "permissionLevel": 100,
     "status": 1,
     "accountId": 0,
-    "profession": 'Doctor',
-    "phoneNumber": '555-555-5555',
-    "picture": '',
-    "dateCreated": '2017-04-18 23:59:00',
-    "dateUpdated": '2017-04-18 23:59:00'
+    "profession": "Doctor",
+    "phoneNumber": "555-555-5555",
+    "picture": "",
+    "dateCreated": "2017-04-18 23:59:00",
+    "dateUpdated": "2017-04-18 23:59:00"
   },
   {
     "id": 2,
-    "email": 'client@storydoc.ai',
-    "password": '123456',
-    "name": 'Vincent',
+    "email": "client@storydoc.ai",
+    "password": "",
+    "name": "Vincent",
     "permissionLevel": 50,
     "status": 1,
     "accountId": 1,
-    "profession": 'Client',
-    "phoneNumber": '555-555-5555',
-    "picture": '',
-    "dateCreated": '2017-04-18 23:59:00',
-    "dateUpdated": '2017-04-18 23:59:00'
+    "profession": "Client",
+    "phoneNumber": "555-555-5555",
+    "picture": "",
+    "dateCreated": "2017-04-18 23:59:00",
+    "dateUpdated": "2017-04-18 23:59:00"
   }
 ]
 ```
@@ -102,17 +102,17 @@ curl "https://user:pass@storydoc-api-stg.mybluemix.net/users/1"
 ```json
 {
   "id": 1,
-  "email": 'vincent@storydoc.ai',
-  "password": '123456',
-  "name": 'Vincent',
+  "email": "vincent@storydoc.ai",
+  "password": "",
+  "name": "Vincent",
   "permissionLevel": 100,
   "status": 1,
   "accountId": 0,
-  "profession": 'Doctor',
-  "phoneNumber": '555-555-5555',
-  "picture": '',
-  "dateCreated": '2017-04-18 23:59:00',
-  "dateUpdated": '2017-04-18 23:59:00'
+  "profession": "Doctor",
+  "phoneNumber": "555-555-5555",
+  "picture": "",
+  "dateCreated": "2017-04-18 23:59:00",
+  "dateUpdated": "2017-04-18 23:59:00"
 }
 ```
 
